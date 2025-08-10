@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600&display=swap");
 :root {
   --bg-black-900: #f2f2fc;
   --bg-black-100: #fdf9ff;
@@ -19,7 +19,7 @@ body.dark {
 body {
   line-height: 1.5;
   font-size: 16px;
-  font-family: 'Poppins' sans-serif;
+  font-family: "Poppins" sans-serif;
 }
 
 * {
@@ -48,7 +48,7 @@ ul {
 }
 
 .hidden {
-  display: none !important; 
+  display: none !important;
 }
 
 .main-content {
@@ -85,7 +85,7 @@ ul {
 }
 
 .section-title h2::before {
-  content: '';
+  content: "";
   height: 4px;
   width: 50px;
   background-color: var(--skin-color);
@@ -95,7 +95,7 @@ ul {
 }
 
 .section-title h2::after {
-  content: '';
+  content: "";
   height: 4px;
   width: 25px;
   background-color: var(--skin-color);
@@ -118,7 +118,7 @@ ul {
   font-weight: 500;
   padding: 12px 35px;
   color: white;
-  border-radius: 40px;  
+  border-radius: 40px;
   display: inline-block;
   white-space: nowrap;
   background: var(--skin-color);
@@ -132,7 +132,6 @@ ul {
 .shadow-dark {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-
 
 /* aside */
 .aside {
@@ -163,16 +162,16 @@ ul {
   padding: 15px 20px;
   font-size: 30px;
   letter-spacing: 5px;
-  position:relative;
+  position: relative;
 }
 
 .aside .logo a span {
-  font-family: 'Clicker Script', cursive;
+  font-family: "Clicker Script", cursive;
   font-size: 40px;
 }
 
 .aside .logo a::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 20px;
   height: 20px;
@@ -183,7 +182,7 @@ ul {
 }
 
 .aside .logo a::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 20px;
   height: 20px;
@@ -217,7 +216,7 @@ ul {
 }
 
 .aside .nav-toggler span::before {
-  content: '';
+  content: "";
   height: 2px;
   width: 18px;
   background: var(--skin-color);
@@ -227,7 +226,7 @@ ul {
 }
 
 .aside .nav-toggler span::after {
-  content: '';
+  content: "";
   height: 2px;
   width: 18px;
   background: var(--skin-color);
@@ -261,7 +260,6 @@ ul {
   margin-right: 15px;
 }
 
-
 /* Home  */
 .home {
   min-height: 100vh;
@@ -271,7 +269,7 @@ ul {
 
 .home .home-info {
   flex: 0 0 60%;
-  max-width: 60%  
+  max-width: 60%;
 }
 
 h3.hello {
@@ -280,7 +278,7 @@ h3.hello {
 }
 
 h3.hello span {
-  font-family: 'Clicker Script' , cursive;
+  font-family: "Clicker Script", cursive;
   font-size: 30px;
   font-weight: 700;
   color: var(--skin-color);
@@ -309,7 +307,7 @@ h3.my-profession {
 }
 
 .home-img::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 80px;
   width: 80px;
@@ -320,7 +318,7 @@ h3.my-profession {
 }
 
 .home-img::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 80px;
   width: 80px;
@@ -332,7 +330,7 @@ h3.my-profession {
 
 .home .home-img img {
   margin: auto;
-  border-radius: 5px; 
+  border-radius: 5px;
   height: 350px;
 }
 
@@ -348,14 +346,14 @@ h3.my-profession {
   max-width: 100%;
 }
 
-.about .about-content .about-text h3{
+.about .about-content .about-text h3 {
   font-size: 24px;
   margin-bottom: 15px;
   font-weight: 700;
   color: var(--text-black-900);
 }
 
-.about .about-content .about-text h3 span{
+.about .about-content .about-text h3 span {
   color: var(--skin-color);
 }
 
@@ -391,7 +389,6 @@ h3.my-profession {
   display: inline-block;
 }
 
-
 .about .about-content .personal-info .buttons {
   margin-top: 30px;
 }
@@ -420,8 +417,8 @@ h3.my-profession {
   text-transform: capitalize;
 }
 
-.about .about-content .skills .skill-item .progress{
-  background-color: var(--bg-black-50); 
+.about .about-content .skills .skill-item .progress {
+  background-color: var(--bg-black-50);
   height: 7px;
   border-radius: 4px;
   width: 100%;
@@ -451,7 +448,7 @@ h3.my-profession {
 }
 
 .about .about-content .education,
-.about .about-content .experience{
+.about .about-content .experience {
   flex: 0 0 50%;
   max-width: 50%;
   margin-top: 30px;
@@ -489,7 +486,7 @@ h3.my-profession {
 }
 
 .about .about-content .timeline .timeline-item:before {
-  content: '';
+  content: "";
   width: 1px;
   position: absolute;
   height: 100%;
@@ -497,7 +494,6 @@ h3.my-profession {
   top: 0;
   background-color: var(--skin-color);
 }
-
 
 .about .about-content .timeline .circle-dot {
   position: absolute;
@@ -516,7 +512,7 @@ h3.my-profession {
   color: var(--text-black-700);
 }
 
-.about .about-content .timeline .timeline-date .fa{
+.about .about-content .timeline .timeline-date .fa {
   margin-right: 5px;
 }
 
@@ -535,13 +531,12 @@ h3.my-profession {
   color: var(--text-black-700);
 }
 
-
 /* service  */
 .service .container {
   padding-bottom: 40px;
 }
 
-.service .service-item{
+.service .service-item {
   margin-bottom: 30px;
   flex: 0 0 33.33%;
   max-width: 33.33%;
@@ -552,8 +547,8 @@ h3.my-profession {
   border: 1px solid var(--bg-black-50);
   border-radius: 10px;
   padding: 30px 15px;
-  text-align:center;
-  transition: all 0.3S ease;
+  text-align: center;
+  transition: all 0.3s ease;
 }
 
 .service .service-item .service-item-inner:hover {
@@ -561,12 +556,12 @@ h3.my-profession {
 }
 
 .service .service-item .service-item-inner .icon {
-   height: 60px;
-   width: 60px;
-   border-radius: 50%;
-   display: block;
-   margin: 0 auto 30px;
-   text-align: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 30px;
+  text-align: center;
 }
 
 .service .service-item .service-item-inner .icon .fa {
@@ -590,7 +585,7 @@ h3.my-profession {
   margin-bottom: 15px;
   color: var(--text-black-900);
   font-weight: 700;
-  text-transform:  capitalize;
+  text-transform: capitalize;
 }
 
 .service .service-item .service-item-inner p {
@@ -599,14 +594,12 @@ h3.my-profession {
   line-height: 25px;
 }
 
-
 /* Portfolio */
 .portfolio .container {
   padding-bottom: 40px;
 }
 
-.portfolio .portfolio-heading
-{
+.portfolio .portfolio-heading {
   flex: 0 0 100%;
   max-width: 100%;
   margin-bottom: 40px;
@@ -614,7 +607,7 @@ h3.my-profession {
 
 .portfolio .portfolio-heading h2 {
   color: var(--text-black-900);
-  font-weight: 500;  
+  font-weight: 500;
 }
 
 .portfolio .portfolio-item {
@@ -631,7 +624,7 @@ h3.my-profession {
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img {
-  height: 250px;
+  height: 225px;
   width: 100%;
   display: block;
 }
@@ -650,7 +643,7 @@ h3.my-profession {
   text-align: center;
   font-size: 15px;
   margin-bottom: 60px;
-} 
+}
 
 .contact .contact-info-item {
   flex: 0 0 25%;
@@ -664,8 +657,8 @@ h3.my-profession {
 }
 
 .contact .contact-info-item .icon .fa {
- font-size: 25px;
- color: var(--skin-color); 
+  font-size: 25px;
+  color: var(--skin-color);
 }
 
 .contact .contact-info-item h4 {
@@ -727,12 +720,11 @@ h3.my-profession {
   padding: 0 50px;
 }
 
-
-/* Screens Responsive */
+/* Screens Responsive - Replace your entire media queries section with this */
 
 @media (max-width: 1199px) {
   .aside {
-    left: -270px
+    left: -270px;
   }
 
   .main-content {
@@ -745,8 +737,7 @@ h3.my-profession {
   }
 }
 
-@media (max-width:991px) {
-
+@media (max-width: 991px) {
   .contact .contact-info-item,
   .portfolio .portfolio-item,
   .service .service-item {
@@ -754,20 +745,53 @@ h3.my-profession {
     max-width: 50%;
   }
 
-  
+  /* Make home section stack vertically */
+  .home {
+    flex-direction: column;
+  }
+
   .home .home-info {
     flex: 0 0 100%;
     max-width: 100%;
+    order: 2; /* Put text content second */
+    text-align: center; /* Center align text on mobile */
   }
 
   .home .home-img {
-    display: none;
+    flex: 0 0 100%;
+    max-width: 100%;
+    order: 1; /* Put image first */
+    margin-bottom: 30px; /* Add some spacing */
+  }
+
+  /* Adjust image styling for mobile */
+  .home .home-img img {
+    max-width: 280px; /* Slightly smaller on mobile */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  /* Adjust decorative borders for mobile */
+  .home-img::before {
+    height: 60px;
+    width: 60px;
+    border-top: 8px solid var(--skin-color);
+    border-left: 8px solid var(--skin-color);
+    left: -15px;
+    top: -30px;
+  }
+
+  .home-img::after {
+    height: 60px;
+    width: 60px;
+    border-bottom: 8px solid var(--skin-color);
+    border-right: 8px solid var(--skin-color);
+    right: 15px;
+    bottom: -30px;
   }
 }
 
-@media (max-width: 767px)
-{
-  .contact .contact-form .col-6
+@media (max-width: 767px) {
+  .contact .contact-form .col-6,
   .contact .contact-info-item,
   .portfolio .portfolio-item,
   .service .service-item,
@@ -776,9 +800,29 @@ h3.my-profession {
   .about .about-content .skills,
   .about .about-content .personal-info {
     flex: 0 0 100%;
-    max-width: 100%; 
+    max-width: 100%;
+  }
+
+  /* Further optimize image for very small screens */
+  .home .home-img img {
+    max-width: 250px;
+  }
+
+  /* Smaller decorative elements on very small screens */
+  .home-img::before,
+  .home-img::after {
+    height: 50px;
+    width: 50px;
+    border-width: 6px;
+  }
+
+  .home-img::before {
+    left: -10px;
+    top: -25px;
+  }
+
+  .home-img::after {
+    right: 10px;
+    bottom: -25px;
   }
 }
-
-
-
